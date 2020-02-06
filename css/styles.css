@@ -1,0 +1,143 @@
+body {
+  font-family: Merriweather, sans-serif;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: Sacramento, cursive;
+  font-size: 5.625rem;
+  margin: 0;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: Montserrat, sans-serif;
+}
+
+h3 {
+  color: #11999e;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: #11999e;
+  margin: 20px;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #66bfbf;
+  width: 4%;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-container-h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.profile {
+  padding: 50px 0;
+}
+
+.profile-p {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.skills {
+  padding: 50px 0;
+}
+
+.skill-row {
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.web-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.laptop-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.github-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me {
+  padding: 50px 0;
+}
+
+@media (max-width: 696px) {
+  .skill-row {
+    text-align: center;
+  }
+
+  .web-img {
+    float: none;
+    margin: auto;
+  }
+
+  .laptop-img {
+    float: none;
+    margin: auto;
+  }
+
+  .github-img {
+    float: none;
+    margin: auto;
+  }
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px;
+}
+
+.bottom-p {
+  color: #eaf6f6;
+  font-size: 0.8rem;
+  padding-top: 20px;
+}
+
+@media (max-width: 696px) {
+  .top-cloud {
+    position: static;
+  }
+
+  .bottom-cloud {
+    position: static;
+    margin: 3rem auto;
+  }
+
+  .mountain-img {
+    width: 100%;
+  }
+}
